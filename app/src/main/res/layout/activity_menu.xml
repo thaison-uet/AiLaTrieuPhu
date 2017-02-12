@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_online_blank"
+    tools:context=".MenuActivity">
+
+    <ImageView
+        android:id="@+id/iv_sun_ray"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-34dp"
+        android:src="@drawable/atp__bg_circle_anim" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/atp_icon_retry" />
+
+    <Button
+        android:id="@+id/btn_high_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="70dp"
+        android:background="@drawable/btn_high_score"
+        android:gravity="center"
+        android:text="Điểm cao"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btn_high_score"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_play"
+        android:gravity="center"
+        android:text="Chơi ngay"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+</RelativeLayout>

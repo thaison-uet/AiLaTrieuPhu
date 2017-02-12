@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#125688</color>
+    <color name="colorPrimaryDark">#125688</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#c8e8ff</color>
+
+    <color name="colorTransparent">#00000000</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorYellow">#fff200</color>
+    <color name="colorBackground">#2B3E4F</color>
+    <color name="mainColor">#00FFFB</color>
+    <color name="colorPurpleTitle">#C700A6</color>
+    <color name="colorPurpleButton">#A407A9</color>
+    <color name="colorPurpleBackground">#19001F</color>
+    <color name="colorNormalPurpleBackgroundTransparent">#FF2b0135</color>
+    <color name="colorLightPurpleBackgroundTransparent">#BB58006C</color>
+    <color name="colorBlueBackgroundTransparent">#BB240042</color>
+</resources>
